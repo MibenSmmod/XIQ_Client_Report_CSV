@@ -43,4 +43,24 @@ Install python from the Microsoft Store (tested with python 3.9). This will also
 Open Windows PowerShell and navigate to the to the folder containing the script and requirements.txt file. To install these modules from the requirements.txt file enter:
 ```
 pip install -r .\requirements.txt
-``` 
+```
+
+# Running an EXE to make this process more simple
+### Option 1
+Download the EXE to your Windows machine and put the CSV file in the same folder and follow the prompts
+
+### Option 2
+Run the EXE on a Mac utilizing an application called CrossOver: https://www.codeweavers.com/crossover
+1) Download the EXE to your downloads folder
+2) Open CrossOver app
+3) Press:  Install - bottom left corner
+4) Click "Install an unlisted application" since this is not a native supported EXE we're trying to run
+5) Press Edit: "You will need to provide the installer file or disk in order to install this software using CrossOver"
+    - Browse and select:  XIQHistoricalReport.exe
+    - Press: Choose Installer
+6) Press Edit:  "You will need to select the bottle to install this software into"
+    - This will be in a New Bottle...
+    - New Bottle Name:  XIQ Client Report
+    - Choose New Bottle Type:  Windows 10 64-bit
+    - Press:  DONE
+7) Press:  Install
