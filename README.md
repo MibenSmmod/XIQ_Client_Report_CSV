@@ -64,3 +64,25 @@ Run the EXE on a Mac utilizing an application called CrossOver: https://www.code
     - Choose New Bottle Type:  Windows 10 64-bit
     - Press:  DONE
 7) Press:  Install
+
+A application window will popup and run the script...
+8) Press X to close the application window and CrossOver will complete the install
+9) Your new XIQ Client Report bottle is listed on the left column; it should be selected
+10) Press:  Open C: Drive
+11) Copy your EXE into the root of the C: drive of your bottle
+12) Rename the file to XIQ.exe for simplicity
+13) Copy your XIQ Report into the root of the C: drive and rename to XIQ.csv
+Both the EXE and CVS should be in the root of the C: drive in your XIQ Client Report Bottle
+
+14) Go back to CrossOver app > press:  Run Command
+15) Type:  c:\XIQ.exe
+16) Press:  Save Command as a Launcher
+17) Press X to close Run Command window
+18) Double left click XIQ icon to launch script
+Prompts:
+- Please enter Location name:  My Library
+- Please enter the name of the Statistics Summary file:  XIQ.csv  <- This file can't be touched by Excel or it will error
+- Window should close after it completes
+19) Go back to the drive_c Finder window and find your XIQ.xlsx
+
+Copy that file out of the bottle and you're complete
